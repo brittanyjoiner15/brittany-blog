@@ -10,8 +10,11 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@elastic/datemath": "^5.0.3",
+    "@elastic/eui": "^30.0.0",
     "gatsby": "^2.24.85",
     "gatsby-theme-blog": "^2.0.2",
+    "moment": "^2.29.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "theme-ui": "0.4.0-rc.5"
