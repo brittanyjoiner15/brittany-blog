@@ -14,11 +14,13 @@ function Javascript() {
   return (
     <div>
       <EuiSpacer size="xxl" />
-      <EuiText>
-        <h1>My Projects</h1>
-      </EuiText>
+      <EuiFlexGroup justifyContent="center">
+        <EuiText>
+          <h1>My Projects</h1>
+        </EuiText>
+      </EuiFlexGroup>
       <EuiSpacer size="xxl" />
-      <EuiFlexGroup style={{ marginLeft: 100, marginRight: 100 }}>
+      <EuiFlexGroup justifyContent="spaceEvenly" style={{ marginLeft: 100, marginRight: 100 }}>
         <EuiFlexItem>
           <Link to="https://github.com/brittanyjoiner15/react-currency-converter">
             <EuiCard
