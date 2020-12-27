@@ -11,15 +11,15 @@ module.exports = {
   siteMetadata: {
     title: `Brittany`,
     author: `Brittany Joiner`,
-    description: `My site description...`,
+    description: `Hi! Learn more about me and my dev projects on this site.`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/britt_joiner`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/brittanyjoiner15`,
       },
     ],
   },

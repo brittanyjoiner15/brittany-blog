@@ -24,17 +24,16 @@ const Nav = () => {
           </EuiHeaderSectionItem>
           <EuiHeaderSectionItem>
             <EuiHeaderLinks aria-label="App navigation links">
-              <Link to="#">
+              <Link to="/blog">
                 <EuiHeaderLink>My Blog</EuiHeaderLink>
               </Link>
 
-              <Link to="#">
+              <a href="mailto:brittanyjoiner15@gmail.com" target="_blank">
                 <EuiHeaderLink>Contact Me</EuiHeaderLink>
-              </Link>
-
+              </a>
               <a
                 target="_blank"
-                href="https://github.com/brittanyjoiner15/react-currency-converter"
+                href="https://github.com/brittanyjoiner15/"
               >
                 <EuiHeaderLink iconType="logoGithub"></EuiHeaderLink>
               </a>
